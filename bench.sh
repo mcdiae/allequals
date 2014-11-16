@@ -1,5 +1,5 @@
 #!/bin/bash
 
-mvn clean install
+mvn install
 
-java -jar target/benchmark.jar -prof gc
+java -jar target/benchmarks.jar -prof gc
